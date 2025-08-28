@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(179, 180, 189, 0.502);
+}
+
+.drop {
+    padding: 0rem 3rem;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 0rem 1rem;
+}
+
+.profile p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.admin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

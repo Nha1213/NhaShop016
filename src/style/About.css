@@ -1,0 +1,42 @@
+.Our {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.Our .OurService {
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.Our .text {
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.Cord {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+}
+
+.CordOne {
+    background-color: white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    text-align: center;
+    padding: 4rem 2rem;
+    width: 15%;
+}
+
+.OurBrand {
+    background-color: rgba(151, 168, 162, 0.386);
+    text-align: center;
+    padding: 5rem;
+}
+
+.br {
+    font-size: 2rem;
+}
