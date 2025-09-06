@@ -1,6 +1,7 @@
 import React from "react";
 import Footerpage from "./Footerpage";
 import { useState } from "react";
+import QR from "../../public/RQ/QRCode.jpg";
 const PaymentPage = () => {
   const [number, setNumber] = useState();
   const [expire, setExpire] = useState();
@@ -153,7 +154,7 @@ const PaymentPage = () => {
             </div>
             <div class="modal-body" style={{ textAlign: "center", width: "100%" }}>
 
-                <img src="../../public/RQ/QRCode.jpg" alt="" width={"100%"} height={"550px"}/>
+                <img src={{QR}} alt="" width={"100%"} height={"550px"}/>
 
             </div>
             <div class="modal-footer">
